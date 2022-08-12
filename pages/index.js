@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Hero, Heading, Button } from "@components";
+import { Layout, Hero, Button } from "@components";
 import { ChooseUs, Collection, HowWorks } from "@components/home";
 import Link from "next/link";
 
@@ -10,15 +10,17 @@ const Home = () => {
   return (
     <Layout>
       {/* Hero section */}
-      <Hero image="/assets/images/coffie.png">
-        <Heading.h1 color="light">
-          Great coffee <br /> made simple.
-        </Heading.h1>
-        <p style={{ color: "white", padding: "24px 0" }}>
-          Start your mornings with the world’s best coffees. Try our <br />{" "}
-          expertly curated artisan coffees from our best roasters <br />{" "}
-          delivered directly to your door, at your schedule.
-        </p>
+      <Hero
+        image="/assets/images/coffie.png"
+        title="Great coffee
+        made simple."
+        description="
+        Start your mornings with the world’s best coffees. Try our
+        expertly curated artisan coffees from our best roasters delivered
+        directly to your door, at your schedule.
+      "
+        color="light"
+      >
         <Link href="/subscribe">
           <Button>Create your plan</Button>
         </Link>

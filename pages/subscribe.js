@@ -13,14 +13,14 @@ const GuideSection = styled.section`
 const Subscribe = () => {
   return (
     <Layout>
-      <Hero image="/assets/images/hero-subscribe.png">
-        <Heading.h1 color="light">Create plan</Heading.h1>
-        <p style={{ color: "white", padding: "24px 0" }}>
-          Coffee the way you wanted it to be. For coffee delivered tomorrow, or
+      <Hero
+        image="/assets/images/hero-subscribe.png"
+        title="Create plan"
+        description=" Coffee the way you wanted it to be. For coffee delivered tomorrow, or
           next week. For whatever brew method you use. For choice, for
-          convenience, for quality.
-        </p>
-      </Hero>
+          convenience, for quality."
+        color="light"
+      />
       <GuideSection>
         <Guide mode="dark" />
       </GuideSection>
