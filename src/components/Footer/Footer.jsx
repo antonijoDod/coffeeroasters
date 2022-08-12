@@ -18,6 +18,7 @@ const FooterWrapper = styled.footer`
   gap: 48px;
   text-align: center;
   @media (min-width: ${({ theme }) => theme.breakpoints.desktop}) {
+    margin-top: 200px;
     flex-direction: row;
     justify-content: space-between;
   }

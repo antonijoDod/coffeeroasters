@@ -33,9 +33,13 @@ const Field = ({ title, children, defaultOpen, ...rest }) => {
     }
   }, [defaultOpen]);
 
+  const handleIsOpen = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
-      <FormLabel onClick={() => setIsOpen(!isOpen)} {...rest}>
+      <FormLabel onClick={handleIsOpen} {...rest}>
         <Heading.h4>{title}</Heading.h4>
         <Image
           src={

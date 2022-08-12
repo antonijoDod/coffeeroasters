@@ -6,3 +6,5 @@ export { default as Hero } from "./Hero";
 export { default as Button } from "./Button";
 
 export { default as Heading } from "./Heading";
+
+export { default as Guide } from "./Guide";

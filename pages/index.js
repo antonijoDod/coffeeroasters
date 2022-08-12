@@ -1,6 +1,6 @@
 import React from "react";
 import { Layout, Hero, Heading, Button } from "@components";
-import { ChooseUs, Collection } from "@components/home";
+import { ChooseUs, Collection, HowWorks } from "@components/home";
 import Link from "next/link";
 
 import { PRODUCTS } from "@src/data/products";
@@ -26,6 +26,7 @@ const Home = () => {
       {/* Collection */}
       <Collection products={PRODUCTS} />
       <ChooseUs options={WHY_US} />
+      <HowWorks />
     </Layout>
   );
 };
