@@ -129,7 +129,7 @@ const Header = () => {
                   </NextLink>
                 </NavigationItem>
                 <NavigationItem>
-                  <NextLink href="/">
+                  <NextLink href="/about-us">
                     <a>About us</a>
                   </NextLink>
                 </NavigationItem>

@@ -29,10 +29,18 @@ const HeroContent = styled.div`
   }
 `;
 
-const HeroTitle = styled(Heading.h1)`
+const HeroTitle = styled.h1`
+  line-height: 1;
+  font-size: 2.5rem;
+  color: ${({ color, theme }) =>
+    color === "light" ? theme.colors.lightCream : theme.colors.darkGreyBlue};
   @media (min-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    font-size: 3rem;
     max-width: 500px;
     text-align: left;
+  }
+  @media (min-width: ${({ theme }) => theme.breakpoints.desktop}) {
+    font-size: 4.5rem;
   }
 `;
 

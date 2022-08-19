@@ -1,11 +1,5 @@
 import styled from "styled-components";
 
-/* 
-heading
-pageHeading
-sectionHeading
-*/
-
 const h1 = styled.h1`
   line-height: 1;
   font-size: 2.5rem;

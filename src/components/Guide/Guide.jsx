@@ -7,13 +7,14 @@ const GuideSection = styled.div`
   background-color: ${({ mode }) => (mode === "dark" ? "#2c343e" : "white")};
   border-radius: 8px;
   @media (min-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    padding: 24px 85px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: ${({ stretch }) => (stretch ? "0px" : "85px")};
+    padding-right: ${({ stretch }) => (stretch ? "0px" : "85px")};
   }
   @media (min-width: ${({ theme }) => theme.breakpoints.desktop}) {
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: ${({ stretch }) => (stretch ? "0px" : "85px")};
-    padding-right: ${({ stretch }) => (stretch ? "0px" : "85px")};
   }
 `;
 

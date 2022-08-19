@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Hero, Layout, Heading, Guide } from "@components";
+import React from "react";
+import { Hero, Layout, Guide } from "@components";
 import { SubscribeForm } from "@components/subscribe";
 import styled from "styled-components";
 

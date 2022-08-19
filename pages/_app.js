@@ -29,7 +29,7 @@ const GlobalStyle = createGlobalStyle`
   }
   p {
     line-height: 1.625;
-    font-size: 0.9375rem
+    font-size: 0.9375rem;
     @media(min-width: 996px) {
       font-size: 1rem;
     }
