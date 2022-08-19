@@ -16,7 +16,7 @@ This is a frontmentor challenge converting figma design to web app.
 
 This template use Next.js for frontend, styled components for building react components.
 
-- Live website - [Antonijo Dod](coffeeroasters-frontmaster.vercel.app)
+- Live website - [https://coffeeroasters-frontmaster.vercel.app](https://coffeeroasters-frontmaster.vercel.app)
 
 ### Screenshot
 
